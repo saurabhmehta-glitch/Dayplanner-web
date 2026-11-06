@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local user data and generated reports
+daytrip-data/
+audit-reports/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
